@@ -1,0 +1,26 @@
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: grey;
+}
+
+h1 {
+  font-family: cursive;
+  color: blue;
+}
+code {
+  font-family: 'Courier New', Courier, monospace;
+  color: red;
+}
+
+.color-clase {
+  color: green;
+}
+.diferente .color-li {
+  color: white;
+  background-color: black;
+}
+
+ol > li {
+  color: white;
+  background-color: blue;
+}
