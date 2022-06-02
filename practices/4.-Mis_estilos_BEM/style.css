@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.picture {
+  width: 100%;
+}
+
+.first-line {
+  padding: 20px;
+  background-image: url(./img/food.webp);
+  text-align: center;
+}
+
+.first-line--decor .first-line__chains {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(223, 224, 207);
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px dashed black;
+}
+
+.first-line__box {
+  width: 70px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.first-line__elemento {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.first-line__chains {
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+.contents {
+  margin-top: 20px;
+  text-align: center;
+  background-image: url(./img/leaves.webp);
+}
+
+.contents__box {
+  display: inline-block;
+  box-shadow: 10px 10px 5px 0px rgba(204, 180, 36, 0.54);
+  margin: 20px;
+}
+
+.contents__image {
+  width: 200px;
+  margin: 8px;
+}
+
+.data {
+  background-image: url(./img/dark-grey-terrazzo.png);
+  margin-top: 20px;
+  text-align: center;
+}
+
+.data__team {
+  color: white;
+  padding: 20px;
+}
+
+.data__text {
+  display: inline-block;
+  margin-left: 30px;
+  padding: 7px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.data__text--modify {
+  background-color: #fff;
+  box-shadow: 10px 10px 5px 0px rgba(238, 233, 233, 0.75);
+}
