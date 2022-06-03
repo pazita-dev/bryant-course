@@ -21,7 +21,18 @@ body {
   text-align: center;
 }
 
-.first-line--decor .first-line__chains {
+/* This is not a modifier, this are applying to all elements with the class .first-line__chains. */
+/* The second practice has the same error */
+/* .first-line--decor .first-line__chains {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(223, 224, 207);
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px dashed black;
+} */
+
+.first-line__chains {
   text-decoration: none;
   color: black;
   background-color: rgb(223, 224, 207);
@@ -80,9 +91,9 @@ body {
   padding: 7px;
   text-decoration: none;
   border-radius: 5px;
+  background-color: #fff;
 }
 
 .data__text--modify {
-  background-color: #fff;
   box-shadow: 10px 10px 5px 0px rgba(238, 233, 233, 0.75);
 }
