@@ -1,6 +1,4 @@
-.random {
-  font: 200;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 * {
   margin: 0;
@@ -12,7 +10,7 @@ body {
 }
 
 .picture {
-  width: 10000px;
+  width: 100%;
 }
 
 .first-line {
