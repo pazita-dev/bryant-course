@@ -13,13 +13,26 @@ body {
   width: 100%;
 }
 
+/* Solo no me gusto el nombre de first line como nombre de clase.Yo le pondría algo asi como encabezado,navegación,header,menu, etc. */
+/* Otra cosa, la pagina quedo muy bien visualmente, felicidades por eso, pero el uso de muchas imágenes,sobre todo con fondos y demás puede causar que sea lenta.Esto lo veremos mas adelante pero mas tarde te doy un ejemplo.Hay formas de solucionar eso, básicamente es hacer esos mismos fondos pero con css en vez de con imágenes o no ponerle imágenes directamente. */
 .first-line {
   padding: 20px;
   background-image: url(./img/food.webp);
   text-align: center;
 }
 
-.first-line--decor .first-line__chains {
+/* This is not a modifier, this are applying to all elements with the class .first-line__chains. */
+/* The second practice has the same error */
+/* .first-line--decor .first-line__chains {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(223, 224, 207);
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px dashed black;
+} */
+
+.first-line__chains {
   text-decoration: none;
   color: black;
   background-color: rgb(223, 224, 207);
@@ -78,9 +91,9 @@ body {
   padding: 7px;
   text-decoration: none;
   border-radius: 5px;
+  background-color: #fff;
 }
 
 .data__text--modify {
-  background-color: #fff;
   box-shadow: 10px 10px 5px 0px rgba(238, 233, 233, 0.75);
 }
