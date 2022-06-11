@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,400;0,700;1,300&display=swap');
+
+body {
+  font-family: 'Kanit', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* No me gusta el nombre de app para una imagen, app-img o img-app creo que es algo mas descriptivo, solo con leer app no me puedo imaginar si es una imagen, incluso me suena mas como un bloque, como si fuese un article */
+.app {
+  width: 100%;
+  border-radius: 100%;
+}
+
+/* Por el contrario de este, este esta muy bien y entiendo que es sin ver el HTML */
+
+.search-box {
+  text-align: center;
+  background-image: url(../img/light-grey-terrazzo.webp);
+  padding: 20px;
+}
+
+/* Se puede omitir, puedes ponerle esto a la clase search box */
+/* .search-box__contents {
+  padding: 20px;
+} */
+
+.app-box {
+  margin: 8px;
+  margin-top: 20px;
+  background-image: url(./img/light-grey-terrazzo.webp);
+  padding: 10px;
+  text-align: center;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+/* La idea de un modificador es que modifique algunos elementos entre varios, con eso se lo estas aplicando a todos.Esto es un poco fallo mas de la estructura HTML, modificare el HTML y esta clase para que veas mas o menos mi idea. */
+.app-box--modify .app-box__item {
+  background-color: aquamarine;
+}
+
+.app-box__item {
+  width: 200px;
+  height: 200px;
+}
+
+.lower {
+  padding: 20px;
+  text-align: center;
+}
+
+.lower__box {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.lower__btn {
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.lower__btn--color {
+  background-color: black;
+  color: white;
+}
