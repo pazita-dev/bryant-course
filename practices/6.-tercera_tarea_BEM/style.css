@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  width: 20%;
+}
+
+.browser__logo {
+  width: 200px;
+}
+.browser__Liverpool {
+  display: inline-block;
+}
+
+.browser__element {
+  display: inline-block;
+}
