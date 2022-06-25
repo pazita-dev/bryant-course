@@ -10,17 +10,23 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+li a {
+  color: black;
+  text-decoration: none;
+}
+
 .img-promotion {
   width: 100%;
 }
 
+
 .navigation {
-  text-align: center;
+  /* por definir */
 }
 
 .navigation__promotion {
-  margin-left: 50px;
-  width: 90%;
+
+  /* por definir */
 }
 
 .navigation__shops {
@@ -29,16 +35,26 @@ body {
   margin-left: 10px;
 }
 
-.navigation__mark {
-  text-decoration: none;
-  color: black;
+.navigation__shop {
+  display: inline-block;
   margin-right: 10px;
   font-size: 10px;
 }
 
-.navigation__liverpool {
-  background-color: rgb(240, 36, 104);
+.navigation__main {
+  text-align: center;
+  background-color: #e10098;
   margin-top: 10px;
+}
+
+.navigation__logo {
+  display: inline-block;
+  width: 100px;
+  vertical-align: middle;
+}
+
+.navigation--change .navigation__logo {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .navigation__search {
@@ -46,28 +62,33 @@ body {
   padding: 20px;
 }
 
-.navigation__box-link {
+.navigation__links {
   display: inline-block;
   margin-top: 5px;
 }
 
-.navigation__links {
+.navigation__link {
   text-decoration: none;
-  color: white;
   display: inline-block;
   margin-right: 30px;
 }
 
+.navigation__compras {
+  text-decoration: none;
+  color: white;
+}
+
 .navigation__menu {
   margin-top: 5px;
+  text-align: center;
   font-size: 14px;
   padding: 10px;
 }
 
 .navigation__list {
-  margin-right: 20px;
-  text-decoration: none;
-  color: black;
+  display: inline-block;
+  list-style: none;
+  margin-left: 20px;
   padding: 5px;
 }
 
@@ -82,5 +103,5 @@ body {
 .promotion-two {
   width: 100%;
   text-align: center;
-  background-color: rgb(214, 70, 137);
+  background-color: #e10098;
 }

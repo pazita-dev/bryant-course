@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-      <nav class="navigation">
+      <nav class="navigation navigation--change">
         <div class="navigation__promotion">
           <img
             src="./imagenes/cintillo_registrate_010919.avif"
@@ -19,66 +19,97 @@
         </div>
 
         <ul class="navigation__shops">
-          <a class="navigation__mark" href="#">Suburbia</a>
-          <a class="navigation__mark" href="#">Pottery Barn</a>
-          <a class="navigation__mark" href="#">Pottery Barn Kids</a>
-          <a class="navigation__mark" href="#">Wiliams Sonoma</a>
-          <a class="navigation__mark" href="#">West Elm</a>
-          <a class="navigation__mark" href="#">GAP</a>
-          <a class="navigation__mark" href="#">Banana Republic</a>
+          <li class="navigation__shop"><a href="#">Suburbia</a></li>
+          <li class="navigation__shop"><a href="#">Pottery Barn</a></li>
+          <li class="navigation__shop"><a href="#">Pottery Barn Kids</a></li>
+          <li class="navigation__shop"><a href="#">Wiliams Sonoma</a></li>
+          <li class="navigation__shop"><a href="#">West Elm</a></li>
+          <li class="navigation__shop"><a href="#">GAP</a></li>
+          <li class="navigation__shop"><a href="#">Banana Republic</a></li>
         </ul>
 
-        <div class="navigation__liverpool">
-          <div class="navigation__search">
+        <div class="navigation__main">
+          <div class="navigation__logo">
+            <img
+              src="./imagenes/logo.jpeg"
+              alt="logo-liverpool"
+              class="img-promotion"
+            />
+          </div>
+          <form class="navigation__search">
             <input type="search" placeholder="Buscar..." name="#" id="#" />
             <input type="submit" value="Buscar" style="margin-right: 20px" />
+          </form>
 
-            <ul class="navigation__box-link">
+          <ul class="navigation__links">
+            <li class="navigation__link">
               <a
                 href="https://login.liverpool.com.mx/u/login?state=hKFo2SBMZXNrQmNVTGc1RVRCeXdoWnBvRWlOVEtYanlNQ1FKeKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEdlem1nLWhMX004NTlPYlB4S0ozQTdJTVBqX1QxM2pEo2NpZNkgVXBQSElJaGNGckRuWVRuUW5pWHFBNjFQN1I4ZERtZGY"
-                class="navigation__links"
+                class="navigation__compras"
               >
                 Mis Compras</a
               >
+            </li>
+            <li class="navigation__link">
               <a
                 href="https://login.liverpool.com.mx/u/login?state=hKFo2SBiTkQtNzFDN193eEQyb2c5bXpLdUUxSFJtVDhqQUZoSaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIExfRkx5NFhXNzlwbFhyZ3pWQ2UtcExZWmRyYmxtdXJlo2NpZNkgVXBQSElJaGNGckRuWVRuUW5pWHFBNjFQN1I4ZERtZGY"
-                class="navigation__links"
+                class="navigation__compras"
                 >Iniciar Sesión</a
               >
-            </ul>
-          </div>
+            </li>
+          </ul>
         </div>
 
         <div class="navigation__menu">
-          <a href="" class="navigation__list navigation__list--distinct"
-            >Categorías</a
-          >
-          <a href="" class="navigation__list">Mesa de Regalos</a>
-          <a href="" class="navigation__list">Mi crédito</a>
-          <a href="" class="navigation__list">Centro de Seguros</a>
-          <a href="" class="navigation__list">Ayuda</a>
-          <a href="" class="navigation__list">Tiendas</a>
-          <a href="" class="navigation__list">Citas en tienda</a>
+          <li class="navigation__list navigation__list--distinct">
+            <a href="#">Categorías</a>
+          </li>
+          <li class="navigation__list">
+            <a
+              href="https://mesaderegalos.liverpool.com.mx/?_ga=2.138618933.746385621.1656031737-34893804.1655306470"
+              >Mesa de Regalos</a
+            >
+          </li>
+          <li class="navigation__list">
+            <a href="https://micredito.liverpool.com.mx/app">Mi crédito</a>
+          </li>
+          <li class="navigation__list">
+            <a
+              href="https://miseguro.liverpool.com.mx/?_ga=2.190079021.746385621.1656031737-34893804.1655306470"
+              >Centro de Seguros</a
+            >
+          </li>
+          <li class="navigation__list">
+            <a href="https://assetspwa.liverpool.com.mx/ayuda/index.html#/"
+              >Ayuda</a
+            >
+          </li>
+          <li class="navigation__list">
+            <a href="https://www.liverpool.com.mx/tienda/browse/storelocator"
+              >Tiendas</a
+            >
+          </li>
+          <li class="navigation__list">
+            <a href="https://www.liverpool.com.mx/tienda/paginas/mis-citas"
+              >Citas en tienda</a
+            >
+          </li>
         </div>
       </nav>
     </header>
 
     <main>
-      <section>
+      <div class="promotion-two">
         <img
           src="./imagenes/cint_200622pre.gif"
           alt="preventa"
           class="img-promotion"
         />
+      </div>
 
-        <div class="promotion-two">
-          <img src="./imagenes/bc01_200622muj.avif" alt="verano-anuncio" />
-        </div>
-      </section>
-
-      <section>
-        <h2>Celulares hasta 13 meses sin intereses</h2>
-      </section>
+      <div class="promotion-two">
+        <img src="./imagenes/bc01_200622muj.avif" alt="verano-anuncio" />
+      </div>
     </main>
   </body>
 </html>
