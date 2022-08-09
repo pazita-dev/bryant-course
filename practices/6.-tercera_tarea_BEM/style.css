@@ -1,21 +1,127 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
 
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
-.logo {
-  width: 20%;
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
-.browser__logo {
-  width: 200px;
+a {
+  text-decoration: none;
 }
-.browser__Liverpool {
+
+.img-promotion {
+  width: 100%;
+}
+
+
+.navigation {
+  /* por definir */
+}
+
+.navigation__promotion {
+  width: 100%;
+
+}
+
+.navigation__shops {
+  margin-top: 5px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.navigation__shop {
   display: inline-block;
+  margin-right: 10px;
+  font-size: 10px;
 }
 
-.browser__element {
+.navigation__name {
+  color: #000;
+}
+
+.navigation__main {
+  text-align: center;
+  background-color: #e10098;
+  margin-top: 10px;
+}
+
+.navigation__logo {
   display: inline-block;
+  width: 100px;
+  vertical-align: middle;
+}
+
+
+.navigation__search {
+  display: inline-block;
+  padding: 20px;
+}
+
+.navigation__links {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.navigation__link {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.navigation__compras {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation__menu {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.navigation__list {
+  display: inline-block;
+  list-style: none;
+  margin-left: 20px;
+  padding: 5px;
+}
+
+.navigation__list--distinct {
+  border: 2px solid fuchsia;
+}
+
+.navigation__list:hover {
+  color: rgb(214, 70, 137);
+}
+
+.promotions {
+  background-color: #e10098;
+  text-align: center;
+}
+
+.promotions__presale {
+  /*por definir*/
+}
+
+.promotions__moto {
+  display: inline-block;
+  padding: 10px;
+  border: white 5px dashed;
+  margin-top: 10px;
+}
+
+.promotions__moto-img {
+  width: 250px;
+  border: 5px solid black;
+}
+
+.promotions__moto--change .promotions__moto-img {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
 }

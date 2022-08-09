@@ -18,6 +18,7 @@ body {
   background-image: url(./img/food.webp);
   text-align: center;
 }
+
 .navegation__chains {
   text-decoration: none;
   color: black;
@@ -44,15 +45,23 @@ body {
 }
 
 .contents {
+  display: inline-block;
   margin-top: 20px;
   text-align: center;
   background-image: url(./img/leaves.webp);
 }
 
+
+
 .contents__box {
   display: inline-block;
   box-shadow: 10px 10px 5px 0px rgba(204, 180, 36, 0.54);
   margin: 20px;
+}
+
+.contents--transform .contents__box:hover {
+  opacity: 0.5;
+  background-color: black;
 }
 
 .contents__image {
