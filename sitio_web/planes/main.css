@@ -31,7 +31,7 @@ body {
 
 }
 
-.nav__list-container .nav__items--highlight {
+.nav__items--highlight {
     background-color: #d20962;
     color: #ffff;
     border-radius: 10px;
