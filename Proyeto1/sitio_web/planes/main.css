@@ -65,3 +65,15 @@ body {
     border-bottom: solid #2DDF5C;
     color: #FF1B68;
 }
+
+.container-img {
+    background-image: url(./img/freedom.jpg);
+    height: 500px;
+}
+
+.container-title {
+    color: #fff;
+    position: absolute;
+    top: 90px;
+    left: 10px;
+}
