@@ -66,14 +66,24 @@ body {
     color: #FF1B68;
 }
 
-.container-img {
+.banner__img {
     background-image: url(./img/freedom.jpg);
     height: 500px;
 }
 
-.container-title {
+.banner__title {
     color: #fff;
     position: absolute;
     top: 90px;
     left: 10px;
+}
+
+.planes {
+    /*por definir*/
+}
+
+.planes__text {
+    color: #2DDF5C;
+    padding: 20px 0;
+
 }
