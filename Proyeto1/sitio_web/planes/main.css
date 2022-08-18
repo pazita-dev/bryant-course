@@ -10,25 +10,24 @@ body {
 
 .nav {
     background-color: #2DDF5C;
-    padding: 10px;
 
 }
 
 .nav__container {
     display: inline-block;
-    padding: 10px;
-
+    vertical-align: middle;
 }
 
 .nav__title {
-    font-size: 20px;
+    font-size: 22px;
     color: #10501F;
+    padding-left: 15px;
 }
 
 .nav__list-container {
     display: inline-block;
     width: calc(100% - 95px);
-
+    padding: 5px;
 }
 
 
@@ -41,10 +40,9 @@ body {
 .nav__item {
     display: inline-block;
     list-style: none;
-    margin-left: 10px;
-    padding: 7px;
+    margin-right: 25px;
     border-bottom: 2px solid #2DDF5C;
-
+    padding: 7px;
 }
 
 .nav__item:hover {
@@ -56,7 +54,8 @@ body {
 .nav__item--highlight {
     background-color: #FF1B68;
     color: #ffff;
-    border-radius: 10px;
+    border-radius: 7px;
+
 
 }
 
