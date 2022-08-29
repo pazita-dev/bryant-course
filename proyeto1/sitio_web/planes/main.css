@@ -78,11 +78,86 @@ body {
 }
 
 .plans {
-    /*por definir*/
+    margin-bottom: 30px;
 }
 
 .plans__text {
     color: #2DDF5C;
     padding: 20px 0;
 
+}
+
+.plan-card {
+    /*por definir*/
+}
+
+.plan-card__box {
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: #D5FFDC;
+    width: 400px;
+    margin: 0 20px;
+}
+
+.plan-card__box--plus {
+    color: #fff;
+    background-color: #19B84C;
+    box-shadow: 10px 11px 3px -6px rgba(115, 102, 102, 0.96);
+    -webkit-box-shadow: 10px 11px 3px -6px rgba(115, 102, 102, 0.96);
+    -moz-box-shadow: 10px 11px 3px -6px rgba(115, 102, 102, 0.96);
+}
+
+.plan-card__recommended--highlight {
+    color: #19B84C;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 11px 12px -1px rgba(0, 0, 0, 0.63);
+    -webkit-box-shadow: 10px 11px 12px -1px rgba(0, 0, 0, 0.63);
+    -moz-box-shadow: 10px 11px 12px -1px rgba(0, 0, 0, 0.63);
+}
+
+.plan-card__title {
+    color: #0E4F1F;
+    padding-bottom: 20px;
+}
+
+.plan-card__title--color {
+    color: #fff;
+}
+
+.plan-card__price {
+    color: #858583;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.plan-card__price--color {
+    color: #0E4F1F;
+}
+
+.plan-card__description {
+    font-weight: 700;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.plan-card__benefits {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.plan-card__button {
+    padding: 10px;
+    color: #fff;
+    background-color: #0E4F1F;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.plan-card__button:hover {
+    background-color: #fff;
+    color: #0E4F1F;
 }
