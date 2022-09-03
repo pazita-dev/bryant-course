@@ -87,7 +87,7 @@ body {
 }
 
 .plan-card {
-  /*por definir*/
+  text-align: center;
 }
 
 .plan-card__box {
@@ -95,8 +95,8 @@ body {
   display: inline-block;
   text-align: center;
   background-color: #d5ffdc;
-  width: 400px;
-  margin: 0 20px;
+  width: 30%;
+  margin-right: 10px;
 }
 
 .plan-card .plan-card__box--plus {
