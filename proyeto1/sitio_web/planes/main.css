@@ -1,164 +1,158 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .nav {
-    background-color: #2DDF5C;
-
+  background-color: #2ddf5c;
 }
 
 .nav__container {
-    display: inline-block;
-    vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .nav__title {
-    font-size: 22px;
-    color: #10501F;
-    padding-left: 15px;
+  font-size: 22px;
+  color: #10501f;
+  padding-left: 15px;
 }
 
 .nav__list-container {
-    display: inline-block;
-    width: calc(100% - 95px);
-    padding: 5px;
+  display: inline-block;
+  width: calc(100% - 95px);
+  padding: 5px;
 }
 
-
 .nav__list {
-    color: #10501F;
-    font-weight: 700;
-    text-align: right;
+  color: #10501f;
+  font-weight: 700;
+  text-align: right;
 }
 
 .nav__item {
-    display: inline-block;
-    list-style: none;
-    margin-right: 25px;
-    border-bottom: 2px solid #2DDF5C;
-    padding: 7px;
+  display: inline-block;
+  list-style: none;
+  margin-right: 25px;
+  border-bottom: 2px solid #2ddf5c;
+  padding: 7px;
 }
 
 .nav__item:hover {
-    color: #ffff;
-    border-bottom: solid #fff;
-
+  color: #ffff;
+  border-bottom: solid #fff;
 }
 
 .nav__item--highlight {
-    background-color: #FF1B68;
-    color: #ffff;
-    border-radius: 7px;
-
-
+  background-color: #ff1b68;
+  color: #ffff;
+  border-radius: 7px;
 }
 
 .nav__item--highlight:hover {
-    background-color: #fff;
-    border-bottom: solid #2DDF5C;
-    color: #FF1B68;
+  background-color: #fff;
+  border-bottom: solid #2ddf5c;
+  color: #ff1b68;
 }
 
 .banner__img {
-    background-image: url(./img/freedom.jpg);
-    height: 525px;
+  background-image: url(./img/freedom.jpg);
+  height: 525px;
 }
 
 .banner__title {
-    color: #fff;
-    position: absolute;
-    top: 75px;
-    left: 10px;
+  color: #fff;
+  position: absolute;
+  top: 75px;
+  left: 10px;
 }
 
 .plans {
-    margin-bottom: 30px;
-    text-align: center;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .plans__text {
-    color: #2DDF5C;
-    padding: 20px 0;
-
+  color: #2ddf5c;
+  padding: 20px 0;
 }
 
 .plan-card {
-    /*por definir*/
+  /*por definir*/
 }
 
 .plan-card__box {
-    padding: 20px;
-    display: inline-block;
-    text-align: center;
-    background-color: #D5FFDC;
-    width: 400px;
-    margin: 0 20px;
+  padding: 20px;
+  display: inline-block;
+  text-align: center;
+  background-color: #d5ffdc;
+  width: 400px;
+  margin: 0 20px;
 }
 
 .plan-card__box--plus {
-    color: #fff;
-    background-color: #19B84C;
-    box-shadow: 10px 11px 3px -6px rgba(115, 102, 102, 0.96);
-    -webkit-box-shadow: 10px 11px 3px -6px rgba(115, 102, 102, 0.96);
-    -moz-box-shadow: 10px 11px 3px -6px rgba(115, 102, 102, 0.96);
+  color: #fff;
+  background-color: #19b84c;
+  box-shadow: 10px 11px 3px -6px rgba(115, 102, 102, 0.96);
+  -webkit-box-shadow: 10px 11px 3px -6px rgba(115, 102, 102, 0.96);
+  -moz-box-shadow: 10px 11px 3px -6px rgba(115, 102, 102, 0.96);
 }
 
 .plan-card__recommended--highlight {
-    color: #19B84C;
-    background-color: #fff;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 10px 11px 12px -1px rgba(0, 0, 0, 0.63);
-    -webkit-box-shadow: 10px 11px 12px -1px rgba(0, 0, 0, 0.63);
-    -moz-box-shadow: 10px 11px 12px -1px rgba(0, 0, 0, 0.63);
+  color: #19b84c;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 11px 12px -1px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: 10px 11px 12px -1px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 10px 11px 12px -1px rgba(0, 0, 0, 0.63);
 }
 
 .plan-card__title {
-    color: #0E4F1F;
-    padding-bottom: 20px;
+  color: #0e4f1f;
+  padding-bottom: 20px;
 }
 
 .plan-card__title--color {
-    color: #fff;
+  color: #fff;
 }
 
 .plan-card__price {
-    color: #858583;
-    font-size: 20px;
-    padding-bottom: 20px;
+  color: #858583;
+  font-size: 20px;
+  padding-bottom: 20px;
 }
 
 .plan-card__price--color {
-    color: #0E4F1F;
+  color: #0e4f1f;
 }
 
 .plan-card__description {
-    font-weight: 700;
-    padding-bottom: 20px;
-    font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  font-size: 18px;
 }
 
 .plan-card__benefits {
-    list-style: none;
-    padding-bottom: 10px;
+  list-style: none;
+  padding-bottom: 10px;
 }
 
 .plan-card__button {
-    padding: 10px;
-    color: #fff;
-    background-color: #0E4F1F;
-    border-radius: 10px;
-    font-size: 16px;
+  padding: 10px;
+  color: #fff;
+  background-color: #0e4f1f;
+  border-radius: 10px;
+  font-size: 16px;
 }
 
 .plan-card__button:hover {
-    background-color: #fff;
-    color: #0E4F1F;
+  background-color: #fff;
+  color: #0e4f1f;
 }
