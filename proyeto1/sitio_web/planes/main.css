@@ -161,3 +161,42 @@ body {
   background-color: #fff;
   color: #0e4f1f;
 }
+
+.benefit {
+  margin-top: 50px;
+  background-color: #e11a68;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.benefit__title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.benefit__container-main {
+  display: inline-block;
+  width: 30%;
+}
+
+.benefit__container {
+  display: inline-block;
+}
+
+.benefit__img {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.benefit__svg {
+  width: 100%;
+}
+
+.benefit__list {
+  font-weight: 700;
+  font-size: 20px;
+}
