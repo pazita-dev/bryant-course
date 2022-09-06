@@ -183,11 +183,8 @@ body {
   width: 30%;
 }
 
-.benefit__container {
-  display: inline-block;
-}
-
 .benefit__img {
+  display: inline-block;
   width: 120px;
   height: 120px;
   border: 2px solid #424242;
